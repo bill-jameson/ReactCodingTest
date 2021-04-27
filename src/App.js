@@ -110,8 +110,13 @@ export default function App() {
             Display the TestComponent below the button, but only after the
             button is pressed.
           </li>
+          <li>
+            Toggle the display of TestComponent each time the button is clicked.
+          </li>
         </ul>
-        <button onClick={() => setTestComponentDisplayed(true)}>
+        <button
+          onClick={() => setTestComponentDisplayed(!testComponentDisplayed)}
+        >
           Click Me
         </button>
         <TestComponent displayed={testComponentDisplayed} />
