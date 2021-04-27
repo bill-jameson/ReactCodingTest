@@ -96,8 +96,8 @@ export default function App() {
       <div>
         <h2>Question 3.</h2>
         <div>
-          Write the properties of the object vriable obj1 show in the text box
-          below when you click the button.
+          Write the properties of the object vriable obj1 to the text box below
+          when you click the button.
         </div>
         <ul>
           <input id="txtObjProps" />
@@ -146,9 +146,7 @@ export default function App() {
             When you click on the icon, the text in the text area should be
             reversed. Use String.split and Array.forEach.
           </li>
-          <li>
-            Prevent entering a lowercase or uppercase "a" in the text area.
-          </li>
+          <li>Prevent typing a lowercase or uppercase "a" in the text area.</li>
         </ul>
         {/* enter your code here */}
         <textarea
