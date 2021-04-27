@@ -30,7 +30,6 @@ export default function App() {
         txt += "{" + propsToString(val) + "}";
       }
     }
-    alert(txt);
     return txt;
   };
 
@@ -103,7 +102,7 @@ export default function App() {
         </button>
       </div>
 
-      <div ClassName="Question1">
+      <div>
         <h2>Question 4.</h2>
         <ul>
           <li>
@@ -111,7 +110,8 @@ export default function App() {
             button is pressed.
           </li>
           <li>
-            Toggle the display of TestComponent each time the button is clicked.
+            Toggle the visibility of TestComponent each time the button is
+            clicked.
           </li>
         </ul>
         <button
